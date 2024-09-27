@@ -24,12 +24,10 @@ public class MyList<T> {
 
     }
     public void remove(){
-
         if (head != null) {
             head = stretegy.remove(head);
-            size--;
         }
-
+        size--;
 
     }
     public int size() {

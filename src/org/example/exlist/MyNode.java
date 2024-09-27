@@ -7,6 +7,14 @@ public class MyNode<T> {
         return value;
     }
 
+    public void setValue(T value) {
+        this.value = value;
+    }
+
+    public void setNext(MyNode<T> next) {
+        this.next = next;
+    }
+
     MyNode<T> next;
     public MyNode(T value){
         this.value = value;
